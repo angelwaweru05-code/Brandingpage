@@ -1,0 +1,186 @@
+/* Reset margins and default font */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Navbar Container */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #1e293b; /* Dark slate background */
+      padding: 1rem 2rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Logo Styling */
+    .navbar-logo a {
+      color: #ffffff;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    /* Links Container */
+    .navbar-links {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+    }
+
+    /* Link Item Styling */
+    .navbar-links a {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    /* Hover effect on links */
+    .navbar-links a:hover {
+      color: #38bdf8; /* Light blue accent color */
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Full Width Banner Container */
+    .hero-banner {
+      width: 100%;
+      min-height: 500px; /* Adjust height as needed */
+      height: 60vh; /* Takes 60% of viewport height */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1707343843437-caacff5cfa74');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+      padding: 0 20px;
+    }
+
+    /* Banner Text Wrapper */
+    .banner-content {
+      max-width: 800px;
+    }
+
+    .banner-content h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+
+    .banner-content p {
+      font-size: 1.25rem;
+      margin-bottom: 1.5rem;
+      color: #e2e8f0;
+    }
+
+    /* Call to Action Button */
+    .banner-btn {
+      display: inline-block;
+      padding: 12px 28px;
+      background-color: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .banner-btn:hover {
+      background-color: #7dd3fc;
+    }
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Features Section Container */
+    .features-section {
+      background-color: #f8fafc;
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 2.25rem;
+      color: #0f172a;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+
+    .section-subtitle {
+      font-size: 1.1rem;
+      color: #64748b;
+      margin-bottom: 3.5rem;
+    }
+
+    /* Grid Layout for 4 Features */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Individual Feature Card */
+    .feature-card {
+      background-color: #ffffff;
+      padding: 2.5rem 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      border: 1px solid #e2e8f0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 20px -4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Icon Container */
+    .feature-icon {
+      width: 60px;
+      height: 60px;
+      background-color: #e0f2fe;
+      color: #0284c7;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.5rem auto;
+    }
+
+    .feature-icon svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .feature-title {
+      font-size: 1.25rem;
+      color: #1e293b;
+      margin-bottom: 0.75rem;
+      font-weight: 600;
+    }
+
+    .feature-description {
+      font-size: 0.95rem;
+      color: #64748b;
+      line-height: 1.6;
+    }
